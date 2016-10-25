@@ -8,6 +8,7 @@ MSG=$1
 git checkout develop
 rm -rf public
 hugo
+cp CNAME ./public/CNAME
 git add .
 git commit -m "$MSG"
 git push origin develop && git subtree push --prefix public origin master
