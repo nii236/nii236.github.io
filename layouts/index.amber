@@ -1,0 +1,65 @@
+!!!
+html[lang="en"]
+	title John Nguyen's Portfolio
+	meta[name="viewport"][content="width=device-width, initial-scale=1"]
+	link[rel="stylesheet"][href="https://unpkg.com/tachyons/css/tachyons.min.css"]
+	link[rel="stylesheet"][href="/css/main.css"]
+
+	body.pa2.center.athelas.bg-lightest-blue.dark-gray.tj
+		div.flex.flex-row.justify-center.w-100.flex-wrap
+			div.self-start.measure-narrow.ma4
+				div.h4.w4.ba.br-100.center.contain[style="background-image:url(/img/avatar.jpg);"]
+				p.f2.tc.mb0 John Nguyen
+				p.i.tc Bachelor of Engineering (Mechatronics)
+				div.bb
+				p.tc
+					a.dark-gray.dim.link[href="http://niiteki.io/technical-blog"] Blog
+				p.tc
+					a.dark-gray.dim.link[href="http://www.github.com/nii236"] GitHub
+				p.tc
+					a.dark-gray.dim.link[href="http://www.linkedin.com/in/johnnguyen87"] LinkedIn
+			div.mh4.self-end.measure
+				div.w-100
+					p.f3.bb About me
+					p I am an ex-control systems/automation engineer, and have been working in the mining industry for 6 years before switching to software development.
+					p I am now working full-time as an analyst developer at The Frontier Group. My analytics work involves data visualisations and writing extensions to TIBCO's Spotfire platform using C# and D3.js. My software development work involves Ruby on Rails, node.js and React.js.
+
+					p My current interests in programming currently revolve around fintech, distributed systems and atomic CSS.
+
+				p.f3.bb Status
+				p.w-100 I am not currently looking for work.
+
+		 		p.f3.bb Preferred Languages/Frameworks
+				div.w-third.fl
+					div.ba.br-100.w3.h3.center.contain[style="background-image:url(/img/gopher.png); background-position: top;"]
+					p.tc
+						a.mv3.dim.dark-gray.link[href="http://golang.org"] Go
+				div.w-third.fl
+					div.ba.br-100.w3.h3.center.contain[style="background-image:url(/img/react.png); background-position: center;"]
+					p.tc
+						a.mv3.dim.dark-gray.link[href="https://facebook.github.io/react/"] React.js
+				div.w-third.fl
+					div.ba.br-100.w3.h3.center.contain[style="background-image:url(/img/elixir.png); background-position: center;"]
+					p.tc
+						a.mv3.dim.dark-gray.link[href="http://elixir-lang.org"] Elixir
+				p.f3.bb Work Experience
+				div.mb2
+					div.f4 The Frontier Group
+					div.f6 Analyst Developer
+					div 2015 - 2016
+				div.mb2
+					div.f4 Impres
+					div.f6 Senior Control Systems Engineer
+					div 2012 - 2015
+				div.mb2
+					div.f4 Lycopodium Limited
+					div.f6 Control Systems Engineer
+					div 2012 - 2015
+				div.mb2
+					div.f4 Forge Group
+					div.f6 Mechanical Engineer
+					div 2012 - 2015
+				div.mb2
+					div.f4 Bechtel Corporation
+					div.f6 Mechanical Engineer
+					div 2012 - 2015
