@@ -18,6 +18,8 @@ html[lang="en"]
 					a.dark-gray.dim.link[href="http://www.github.com/nii236"] GitHub
 				p.tc
 					a.dark-gray.dim.link[href="http://www.linkedin.com/in/johnnguyen87"] LinkedIn
+				p.tc
+					a.dark-gray.dim.link[href="http://cv.niiteki.io"] Résumé
 			div.mh4.self-end.measure
 				div.w-100
 					p.f3.bb About me
