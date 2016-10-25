@@ -5,9 +5,9 @@ if [ $# -lt 1 ]
 		exit
 fi
 MSG=$1
-git checkout master
+git checkout develop
 rm -rf public
 hugo
 git add .
 git commit -m "$MSG"
-git push origin master && git subtree push --prefix public origin gh-pages
+git push origin develop && git subtree push --prefix public origin master
