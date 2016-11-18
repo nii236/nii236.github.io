@@ -25,13 +25,24 @@ html[lang="en"]
 					p.f3.bb About me
 					p I am an ex-control systems/automation engineer, and have been working in the mining industry for 6 years before switching to software development.
 					p I am now working full-time as an analyst developer at The Frontier Group. My analytics work involves data visualisations and writing extensions to TIBCO's Spotfire platform using C# and D3.js. My software development work involves Ruby on Rails, node.js and React.js.
-
 					p My current interests in programming currently revolve around fintech, distributed systems and atomic CSS.
-
 				p.f3.bb Status
-				p.w-100 I am not currently looking for work.
-
-		 		p.f3.bb Preferred Languages/Frameworks
+					p.w-100 I am currently looking for work.
+				//p.f3.bb Projects
+					div.w-100.ma3.flex.flex-row.flex-wrap
+						div.tc
+							a.db.black.dim.link.f4[href="https://github.com/nii236/wedding"] My Wedding Website
+							img.mt4.br4[src="/img/wedding.jpg"]
+						div.tc
+							a.db.black.dim.link.f4[href="https://github.com/nii236/nii-finance"] Trading with Microservices
+							div.mt4.center.w-100.h4.contain[style="background-image:url(/img/micro.png);"]
+						div.tc
+							p.db.black.dim.link.f4[href="https://github.com/nii236/wedding"] Internet of Things
+							img.mt4.br4.w5[src="/img/take5.png"]
+						div.tc
+							a.db.black.dim.link.f4[href="https://github.com/nii236/nii-finance"] Go/React/Electron Boilerplate
+							div.mt4.center.w-100.h4.contain[style="background-image:url(/img/micro.png);"]
+				p.f3.bb Preferred Languages/Frameworks
 				div.w-third.fl
 					div.ba.br-100.w3.h3.center.contain[style="background-image:url(/img/gopher.png); background-position: top;"]
 					p.tc
@@ -46,15 +57,15 @@ html[lang="en"]
 						a.mv3.dim.dark-gray.link[href="http://elixir-lang.org"] Elixir
 				p.f3.bb Work Experience
 				div.mb2
-					div.f4 The Frontier Group
+					a.f4.black.dim.link[href="http://www.thefrontiergroup.com.au"] The Frontier Group
 					div.f6 Analyst Developer
 					div 2015 - 2016
 				div.mb2
-					div.f4 Impres
+					a.f4.black.dim.link[href="http://www.impres.net.au"] Impres
 					div.f6 Senior Control Systems Engineer
 					div 2014 - 2014
 				div.mb2
-					div.f4 Lycopodium Limited
+					a.f4.black.dim.link[href="http://www.lycopodium.com.au"] Lycopodium Limited
 					div.f6 Control Systems Engineer
 					div 2012 - 2013
 				div.mb2
@@ -62,6 +73,6 @@ html[lang="en"]
 					div.f6 Mechanical Engineer
 					div 2011 - 2011
 				div.mb2
-					div.f4 Bechtel Corporation
+					a.f4.black.dim.link[href="http://www.bechtel.com"] Bechtel Corporation
 					div.f6 Mechanical Engineer
 					div 2009 - 2010
