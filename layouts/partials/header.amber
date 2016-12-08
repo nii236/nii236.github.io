@@ -1,0 +1,16 @@
+div.flex.flex-column.min-vh-100.justify-center.w-100
+	div.self-center.measure-wide.ma4
+		div.h4.w4.ba.br-100.center.contain[style="background-image:url(/img/avatar.jpg);"]
+		p.f1.tc.mb0 John Nguyen
+		p.f3.i.tc Bachelor of Engineering (Mechatronics)
+		div.bb
+		p.tc.f4
+			a.dark-gray.dim.link[href="http://www.github.com/nii236"] GitHub
+		p.tc.f4
+			a.dark-gray.dim.link[href="http://www.linkedin.com/in/johnnguyen87"] LinkedIn
+		p.tc.f4
+			a.dark-gray.dim.link[href="http://cv.niiteki.io"] Résumé
+		p.tc.f4
+				a.dark-gray.dim.link[href="http://niiteki.io/travel-blog"] Travel
+		p.tc.f4
+			a.dark-gray.dim.link[href="http://niiteki.io/technical-blog"] Blog
