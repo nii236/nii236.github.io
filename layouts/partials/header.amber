@@ -11,6 +11,6 @@ div.flex.flex-column.min-vh-100.justify-center.w-100
 		p.tc.f4
 			a.dark-gray.dim.link[href="http://cv.niiteki.io"] Résumé
 		p.tc.f4
-				a.dark-gray.dim.link[href="http://niiteki.io/travel-blog"] Travel
+				a.dark-gray.dim.link[href="http://travel,niiteki.io/"] Travel
 		p.tc.f4
 			a.dark-gray.dim.link[href="http://niiteki.io/technical-blog"] Blog
