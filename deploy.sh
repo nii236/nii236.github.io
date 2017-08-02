@@ -6,9 +6,10 @@ if [ $# -lt 1 ]
 fi
 MSG=$1
 git checkout develop
-rm -rf public
+cd src
 hugo
-cp CNAME ./public/CNAME
+cd ..
+cp ./src/CNAME .
 git add .
 git commit -m "$MSG"
-git push origin develop && git subtree push --prefix public origin master
+git push origin master
